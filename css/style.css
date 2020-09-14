@@ -226,3 +226,97 @@ footer {
     height: 200px;
     text-align: left;
 }
+
+footer img {
+    width: 230px;
+    display: inline-block;
+    padding-right: 60px;
+    padding-left: 10px;
+}
+
+footer div.inline {
+    display: inline-block;
+    text-align: left;
+    width: 100px;
+    border-left: 1.5pt solid #2E2C2E;
+    height: 90px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer div a {
+    display: block;
+}
+
+footer div.footer-col {
+    text-align: left;
+    width: 200px;
+    border-left: 1.5pt solid #2E2C2E;
+}
+
+footer div.footer-col-lg {
+    text-align: left;
+    width: 400px;
+}
+
+footer div.copy {
+    display: block;
+    margin-top: 30px;
+    border-top: 1px solid;
+    padding-top: 10px;
+}
+
+footer div.footer-col, footer div.footer-col-lg, footer div.copy {
+    padding: 10px;
+}
+
+footer a.social-link {
+    display: inline-block;
+}
+
+footer a.social-link i, footer a.social-link i:hover, footer a.social-link i:active {
+    font-size: 25px;
+    color: white;
+    padding: 5px;
+}
+
+footer .footer-col ul, footer .footer-col-lg ul {
+    padding-left: 10px;
+}
+
+/* Media */
+/* max = equal or less */
+/* min = equal or more*/
+@media (min-width: 600px) {
+    header h1 {
+        font-size: 60px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    .project-item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 50px;
+    }
+
+    header h2 {
+        font-size: 25px;
+    }
+
+    .project-item {
+        width: 80%;
+    }
+}
