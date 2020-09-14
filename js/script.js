@@ -14,13 +14,11 @@ const CONTACTS = {
 
 const PROJECTS = {
     "FusionPixelmon": {
-        "link": "css/style.css",
         "pict": "https://static.spigotmc.org/img/spigot-og.png",
         "tags": "Java &middot; Sponge &middot; Spigot &middot; Forge &middot; Pixelmon",
         "info": "Adds a little extra to your Pixelmon experience."
     },
     "FxBiomeRTP": {
-        "link": "css/style.css",
         "pict": "https://static.spigotmc.org/img/spigot-og.png",
         "tags": "Java &middot; Sponge",
         "info": "Allows players to randomly teleport across the world and to specific biome types."
