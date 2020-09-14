@@ -114,6 +114,7 @@ header a, header a:hover, header a:visited {
     max-width: 100px;
     padding: 10px;
 }
+
 #about div img {
     width: 100px;
     height: 100px;
@@ -132,21 +133,12 @@ header a, header a:hover, header a:visited {
     background-color: #264880;
 }
 
-#projects a {
+#projects .project-item {
     color: white;
 }
 
-#projects a:hover {
+#projects .project-item:hover {
     color: black;
-}
-
-#projects .project-info h2 {
-    margin-bottom: 0px;
-}
-
-#projects .project-info span.tags {
-    margin-bottom: 10px;
-    font-size: 15px;
 }
 
 .project-item {
@@ -179,6 +171,15 @@ header a, header a:hover, header a:visited {
     height: 100px;
 }
 
+#projects .project-info h2 {
+    margin-bottom: 0px;
+}
+
+#projects .project-info span.tags {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
 .project-info {
     width: 300px;
     margin: 30px;
@@ -199,6 +200,7 @@ header a, header a:hover, header a:visited {
 #contact i {
     font-size: 30px;
 }
+
 #contact i, #contact span {
     display: block;
 }
@@ -291,8 +293,6 @@ footer .footer-col ul, footer .footer-col-lg ul {
 }
 
 /* Media */
-/* max = equal or less */
-/* min = equal or more*/
 @media (min-width: 600px) {
     header h1 {
         font-size: 60px;
